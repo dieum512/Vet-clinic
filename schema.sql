@@ -13,3 +13,8 @@ ALTER TABLE animals ADD species_id INT;
 ALTER TABLE animals ADD CONSTRAINT fk_species FOREIGN KEY (species_id) REFERENCES species(id) ON DELETE CASCADE;
 ALTER TABLE animals ADD owner_id INT;
 ALTER TABLE animals ADD CONSTRAINT fk_owners FOREIGN KEY (owner_id) REFERENCES owners(id) ON DELETE CASCADE;
+
+-- Add join table for visits
+CREATE TABLE vets (id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, name VARCHAR(200), age INT, date_of_graduation DATE);
+CREATE TABLE specializations (species_id INT, vets_id INT);
+CREATE TABLE visits (animals_id INT, vets_id INT, date_of_visit DATE);
