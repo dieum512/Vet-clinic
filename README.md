@@ -1,10 +1,19 @@
 <a name="readme-top"></a>
 
 
+=======
+> This template should be used for database related projects at Microverse.
+> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+
+
+## Getting Started
+
+
 <div align="center">
  
   <img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
+
 
 
 
@@ -106,8 +115,12 @@ That's it! Congratulations, you have created your database and connected to it. 
 -Check queries.sql for examples of queries that can be run on a newly created database.
 
 
-
+=======
+<a name="readme-top"></a>
 <!-- AUTHORS -->
+
+
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -118,6 +131,7 @@ That's it! Congratulations, you have created your database and connected to it. 
 - Twitter: [@dieumakonkw](https://twitter.com/dieumakonkw)
 - LinkedIn: [Dieum Akonkwa](https://www.linkedin.com/in/dieum-akonkwa/)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -125,6 +139,14 @@ That's it! Congratulations, you have created your database and connected to it. 
 ## 🔭 Future Features <a name="future-features"></a>
 -Add paients table and also expond the users privilages 
 
+=======
+👤 **Mohammad Mohsen Haidari**
+
+- GitHub: [@githubhandle](https://github.com/mmhaidari)
+- Twitter: [@twitterhandle](https://twitter.com/mmhaidari12)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-mohsen-haidari/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -132,7 +154,7 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/dieum512/Vet-clinic/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,9 +162,9 @@ Feel free to check the [issues page](https://github.com/dieum512/Vet-clinic/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
 If you like this project please hit ⭐️ symbol
+=======
+If you like this project please leave a star ⭐️...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,6 +180,8 @@ If you like this project please hit ⭐️ symbol
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+=======
+I would like to thank Microvse for great support to the project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
