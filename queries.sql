@@ -59,3 +59,9 @@ SELECT animals.name AS first_animal_to_visit_Maisy, vets.name, MIN(visits.date_o
 SELECT * FROM visits JOIN animals ON visits.animals_id = animals.id JOIN vets ON vets.id = visits.vets_id ORDER BY visits.date_of_visit DESC LIMIT 1;
 SELECT COUNT(*) AS visits_with_a_vet_tha_did_no_specialize FROM visits JOIN (SELECT vets.id FROM vets FULL JOIN specializations ON vets.id = specializations.vets_id FULL JOIN species ON species.id = specializations.species_id WHERE specializations.species_id IS NULL) AS vet ON vet.id = visits.vets_id;
 SELECT s.name AS species_name_Maisy_should_consider, COUNT(vis.date_of_visit) AS total_visits FROM visits AS vis JOIN animals AS a ON vis.animals_id = a.id JOIN species AS s ON a.species_id = s.id JOIN vets AS v ON vis.vets_id = v.id WHERE v.name =  'Maisy Smith' GROUP BY s.name ORDER BY total_visits DESC LIMIT 1;
+
+
+-- databasee performance
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vets_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
