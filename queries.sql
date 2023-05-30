@@ -62,9 +62,11 @@ SELECT s.name AS species_name_Maisy_should_consider, COUNT(vis.date_of_visit) AS
 
 
 -- databasee performance
-EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
-EXPLAIN ANALYZE SELECT * FROM visits where vets_id = 2;
 EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
+
+EXPLAIN ANALYZE SELECT * FROM visits where vets_id = 2;
+
 
 CREATE INDEX ON visits(animals_id);
 CREATE INDEX ON visits(vets_id);
