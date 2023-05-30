@@ -118,13 +118,6 @@ That's it! Congratulations, you have created your database and connected to it. 
 - Twitter: [@dieumakonkw](https://twitter.com/dieumakonkw)
 - LinkedIn: [Dieum Akonkwa](https://www.linkedin.com/in/dieum-akonkwa/)
 
-👤 **Mohammad Mohsen Haidari**
-
-- GitHub: [@mmhaidari](https://github.com/mmhaidari)
-- Twitter: [@mmohsen](https://twitter.com/mmhaidari12)
-- LinkedIn: [mohammad-mohsen-haidrai](https://www.linkedin.com/in/mohammad-mohsen-haidari/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
