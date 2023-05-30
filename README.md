@@ -120,9 +120,9 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 👤 **Mohammad Mohsen Haidari**
 
-- GitHub: [@githubhandle](https://github.com/mmhaidari)
-- Twitter: [@twitterhandle](https://twitter.com/mmhaidari12)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-mohsen-haidari/)
+- GitHub: [@mmhaidari](https://github.com/mmhaidari)
+- Twitter: [@mmohsen](https://twitter.com/mmhaidari12)
+- LinkedIn: [mohammad-mohsen-haidrai](https://www.linkedin.com/in/mohammad-mohsen-haidari/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
