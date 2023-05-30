@@ -18,3 +18,6 @@ ALTER TABLE animals ADD CONSTRAINT fk_owners FOREIGN KEY (owner_id) REFERENCES o
 CREATE TABLE vets (id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, name VARCHAR(200), age INT, date_of_graduation DATE);
 CREATE TABLE specializations (species_id INT, vets_id INT);
 CREATE TABLE visits (animals_id INT, vets_id INT, date_of_visit DATE);
+
+-- database performance 
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
